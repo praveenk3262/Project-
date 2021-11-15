@@ -1,0 +1,49 @@
+.special1
+{
+	border: 0px solid black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.special1_pro
+{
+	border: 0px solid red;
+	width: 370px;
+	height: 280px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px 5px #E7D7D3;
+	transition: transform 0.5s;
+}
+.special1_pro:hover
+{
+	transform:scale(1.5); 
+	
+}
+	
+.special1_pro img
+{
+	width: 100%;
+	height: 82%;
+}
+.checked
+{
+	color : gold;
+}
+
+.star
+{
+	border: 0px solid;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.title p
+{
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+}
